@@ -2,6 +2,8 @@
 
 Python project analyzing sales data with visualizations.
 
+![Dashboard](dashboard.png)
+
 ## What it does
 - Generates realistic sales data (500 records)
 - Cleans data and removes outliers
@@ -13,10 +15,11 @@ Python project analyzing sales data with visualizations.
 - pandas, numpy, matplotlib, seaborn
 
 ## How to run
+```
 pip install pandas numpy matplotlib seaborn
-
 python analysis.py
+```
 
 ## Output
-- dashboard.png — visual charts
-- summary.csv — monthly summary by product
+- `dashboard.png` — visual charts
+- `summary.csv` — monthly summary by product
